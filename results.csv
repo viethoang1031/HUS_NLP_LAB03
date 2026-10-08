@@ -1,0 +1,220 @@
+experiment,setting,item,metric,value
+corpus,C4-30K,documents,count,30000
+corpus,C4-30K,sentences,count,617420
+corpus,C4-30K,tokens,count,10818756
+corpus,C4-30K,distinct_words,count,175415
+exp1,toy|window=1,cat-dog,cosine_count,1.0
+exp1,toy|window=1,cat-dog,cosine_ppmi,1.0
+exp1,toy|window=1,cat-eats,cosine_count,0.0
+exp1,toy|window=1,cat-eats,cosine_ppmi,0.0
+exp1,toy|window=1,fish-meat,cosine_count,0.707
+exp1,toy|window=1,fish-meat,cosine_ppmi,0.707
+exp1,toy|window=1,matrix,vocab_size,8
+exp1,toy|window=1,matrix,cells,64
+exp1,toy|window=1,matrix,nonzero,20
+exp1,toy|window=1,matrix,density,0.3125
+exp1,toy|window=2,cat-dog,cosine_count,0.875
+exp1,toy|window=2,cat-dog,cosine_ppmi,0.273
+exp1,toy|window=2,cat-eats,cosine_count,0.625
+exp1,toy|window=2,cat-eats,cosine_ppmi,0.262
+exp1,toy|window=2,fish-meat,cosine_count,0.707
+exp1,toy|window=2,fish-meat,cosine_ppmi,0.707
+exp1,toy|window=2,matrix,vocab_size,8
+exp1,toy|window=2,matrix,cells,64
+exp1,toy|window=2,matrix,nonzero,32
+exp1,toy|window=2,matrix,density,0.5
+exp1,toy|window=5,cat-dog,cosine_count,0.875
+exp1,toy|window=5,cat-dog,cosine_ppmi,0.256
+exp1,toy|window=5,cat-eats,cosine_count,0.625
+exp1,toy|window=5,cat-eats,cosine_ppmi,0.128
+exp1,toy|window=5,fish-meat,cosine_count,0.816
+exp1,toy|window=5,fish-meat,cosine_ppmi,0.71
+exp1,toy|window=5,matrix,vocab_size,8
+exp1,toy|window=5,matrix,cells,64
+exp1,toy|window=5,matrix,nonzero,38
+exp1,toy|window=5,matrix,density,0.5938
+exp1,C4-3000docs|window=1,doctor-physician,cosine_count,0.439
+exp1,C4-3000docs|window=1,doctor-physician,cosine_ppmi,0.064
+exp1,C4-3000docs|window=1,doctor-hospital,cosine_count,0.634
+exp1,C4-3000docs|window=1,doctor-hospital,cosine_ppmi,0.012
+exp1,C4-3000docs|window=1,cat-dog,cosine_count,0.303
+exp1,C4-3000docs|window=1,cat-dog,cosine_ppmi,0.062
+exp1,C4-3000docs|window=1,doctor-banana,cosine_count,0.239
+exp1,C4-3000docs|window=1,doctor-banana,cosine_ppmi,0.027
+exp1,C4-3000docs|window=1,matrix,vocab_size,26995
+exp1,C4-3000docs|window=1,matrix,cells,728730025
+exp1,C4-3000docs|window=1,matrix,nonzero,780520
+exp1,C4-3000docs|window=1,matrix,density,0.0011
+exp1,C4-3000docs|window=2,doctor-physician,cosine_count,0.556
+exp1,C4-3000docs|window=2,doctor-physician,cosine_ppmi,0.031
+exp1,C4-3000docs|window=2,doctor-hospital,cosine_count,0.721
+exp1,C4-3000docs|window=2,doctor-hospital,cosine_ppmi,0.031
+exp1,C4-3000docs|window=2,cat-dog,cosine_count,0.416
+exp1,C4-3000docs|window=2,cat-dog,cosine_ppmi,0.116
+exp1,C4-3000docs|window=2,doctor-banana,cosine_count,0.347
+exp1,C4-3000docs|window=2,doctor-banana,cosine_ppmi,0.016
+exp1,C4-3000docs|window=2,matrix,vocab_size,26995
+exp1,C4-3000docs|window=2,matrix,cells,728730025
+exp1,C4-3000docs|window=2,matrix,nonzero,1482272
+exp1,C4-3000docs|window=2,matrix,density,0.002
+exp1,C4-3000docs|window=5,doctor-physician,cosine_count,0.71
+exp1,C4-3000docs|window=5,doctor-physician,cosine_ppmi,0.053
+exp1,C4-3000docs|window=5,doctor-hospital,cosine_count,0.79
+exp1,C4-3000docs|window=5,doctor-hospital,cosine_ppmi,0.052
+exp1,C4-3000docs|window=5,cat-dog,cosine_count,0.434
+exp1,C4-3000docs|window=5,cat-dog,cosine_ppmi,0.083
+exp1,C4-3000docs|window=5,doctor-banana,cosine_count,0.488
+exp1,C4-3000docs|window=5,doctor-banana,cosine_ppmi,0.007
+exp1,C4-3000docs|window=5,matrix,vocab_size,26995
+exp1,C4-3000docs|window=5,matrix,cells,728730025
+exp1,C4-3000docs|window=5,matrix,nonzero,3079155
+exp1,C4-3000docs|window=5,matrix,density,0.0042
+core,window=5|vocab=20000,matrix,nonzero,14062054
+core,window=5|ppmi,doctor,top5,patients medical doctors surgery physician
+core,window=5|count,doctor,top5,child physician dentist dog plan
+core,window=5|ppmi,hospital,top5,medical university medicine health center
+core,window=5|count,hospital,top5,park public community house office
+core,window=5|ppmi,patient,top5,patients treatment care clinical medical
+core,window=5|count,patient,top5,proper client function test for
+core,window=5|ppmi,disease,top5,diseases patients chronic diabetes disorders
+core,window=5|count,disease,top5,treatment performance natural activity behavior
+core,window=5|ppmi,computer,top5,software system laptop computers systems
+core,window=5|count,computer,top5,business home budget laptop desktop
+core,window=5|ppmi,football,top5,replica shirt shirts thcheap basketball
+core,window=5|count,football,top5,kits shirt kingdom emperor demon
+core,window=5|ppmi,banana,top5,butter pudding yogurt fruit coconut
+core,window=5|count,banana,top5,red bread dark texture fruit
+exp2,dim=100|window=5,model,vocab_size,50588
+exp2,dim=100|window=5,model,train_seconds,124.3
+exp2,dim=100|window=5,doctor,top5,dentist:0.823 physician:0.776 veterinarian:0.736 surgeon:0.690 therapist:0.681
+exp2,dim=100|window=5,hospital,top5,clinic:0.759 icu:0.649 hospitals:0.649 clinics:0.640 rehab:0.610
+exp2,dim=100|window=5,patient,top5,patients:0.682 physician:0.666 medication:0.630 diagnosis:0.621 child:0.617
+exp2,dim=100|window=5,disease,top5,diseases:0.806 infection:0.803 chronic:0.769 obesity:0.769 lung:0.749
+exp2,dim=100|window=5,computer,top5,desktop:0.724 device:0.698 laptop:0.675 pc:0.659 computers:0.657
+exp2,dim=100|window=5,football,top5,replica:0.682 basketball:0.679 soccer:0.653 hockey:0.651 baseball:0.631
+exp2,dim=100|window=5,banana,top5,cinnamon:0.839 oatmeal:0.836 carrot:0.832 caramelized:0.832 chutney:0.830
+exp2,dim=100|window=5,doctor-dentist,sentences_with_both,6
+exp2,dim=100|window=5,doctor-physician,sentences_with_both,3
+exp2,dim=100|window=5,doctor-veterinarian,sentences_with_both,0
+exp2,dim=100|window=5,doctor-surgeon,sentences_with_both,7
+exp2,dim=100|window=5,doctor-therapist,sentences_with_both,2
+exp3,dim=100|window2,doctor-physician,cosine,0.783
+exp3,dim=100|window5,doctor-physician,cosine,0.776
+exp3,dim=100|window10,doctor-physician,cosine,0.745
+exp3,dim=100|window2,doctor-hospital,cosine,0.457
+exp3,dim=100|window5,doctor-hospital,cosine,0.431
+exp3,dim=100|window10,doctor-hospital,cosine,0.46
+exp3,dim=100|window2,cat-dog,cosine,0.725
+exp3,dim=100|window5,cat-dog,cosine,0.774
+exp3,dim=100|window10,cat-dog,cosine,0.731
+exp3,dim=100|window2,car-automobile,cosine,0.646
+exp3,dim=100|window5,car-automobile,cosine,0.608
+exp3,dim=100|window10,car-automobile,cosine,0.598
+exp3,dim=100|window2,doctor-banana,cosine,-0.223
+exp3,dim=100|window5,doctor-banana,cosine,-0.15
+exp3,dim=100|window10,doctor-banana,cosine,-0.128
+exp3,dim=100|window2,model,train_seconds,116.8
+exp3,dim=100|window2,doctor,top5,dentist:0.797 physician:0.783 surgeon:0.705 veterinarian:0.700 vet:0.691
+exp3,dim=100|window5,model,train_seconds,124.3
+exp3,dim=100|window5,doctor,top5,dentist:0.823 physician:0.776 veterinarian:0.736 surgeon:0.690 therapist:0.681
+exp3,dim=100|window10,model,train_seconds,166.1
+exp3,dim=100|window10,doctor,top5,dentist:0.825 veterinarian:0.745 physician:0.745 surgeon:0.709 pharmacist:0.704
+exp4,dim=50|window=5,model,train_seconds,132.1
+exp4,dim=50|window=5,model,parameters_M,2.53
+exp4,dim=50|window=5,model,file_MB,11.6
+exp4,dim=50|window=5,model,doctor_physician,0.829
+exp4,dim=50|window=5,model,doctor_hospital,0.516
+exp4,dim=50|window=5,model,cat_dog,0.845
+exp4,dim=50|window=5,model,analogy_top1,0.482
+exp4,dim=50|window=5,model,analogy_top5,0.647
+exp4,dim=50|window=5,model,analogy_n,170
+exp4,dim=50|window=5,model,category_cv_acc,0.978
+exp4,dim=100|window=5,model,train_seconds,124.3
+exp4,dim=100|window=5,model,parameters_M,5.06
+exp4,dim=100|window=5,model,file_MB,22.0
+exp4,dim=100|window=5,model,doctor_physician,0.776
+exp4,dim=100|window=5,model,doctor_hospital,0.431
+exp4,dim=100|window=5,model,cat_dog,0.774
+exp4,dim=100|window=5,model,analogy_top1,0.535
+exp4,dim=100|window=5,model,analogy_top5,0.724
+exp4,dim=100|window=5,model,analogy_n,170
+exp4,dim=100|window=5,model,category_cv_acc,0.989
+exp4,dim=300|window=5,model,train_seconds,273.3
+exp4,dim=300|window=5,model,parameters_M,15.18
+exp4,dim=300|window=5,model,file_MB,62.2
+exp4,dim=300|window=5,model,doctor_physician,0.73
+exp4,dim=300|window=5,model,doctor_hospital,0.407
+exp4,dim=300|window=5,model,cat_dog,0.688
+exp4,dim=300|window=5,model,analogy_top1,0.535
+exp4,dim=300|window=5,model,analogy_top5,0.759
+exp4,dim=300|window=5,model,analogy_n,170
+exp4,dim=300|window=5,model,category_cv_acc,0.978
+eval_similarity,dim=100|window=5,doctor-physician,cosine,0.776
+eval_similarity,dim=100|window=5,car-automobile,cosine,0.608
+eval_similarity,dim=100|window=5,king-queen,cosine,0.731
+eval_similarity,dim=100|window=5,cat-dog,cosine,0.774
+eval_similarity,dim=100|window=5,computer-banana,cosine,-0.218
+eval_similarity,dim=100|window=5,24_pairs,spearman_word2vec,0.791
+eval_similarity,window=5|ppmi,24_pairs,spearman_cooccurrence_ppmi,0.674
+eval_similarity,dim=50|window=5,24_pairs,spearman_word2vec,0.787
+eval_similarity,dim=100|window=2,24_pairs,spearman_word2vec,0.807
+eval_similarity,dim=100|window=5,24_pairs,spearman_word2vec,0.791
+eval_similarity,dim=100|window=10,24_pairs,spearman_word2vec,0.793
+eval_similarity,dim=300|window=5,24_pairs,spearman_word2vec,0.803
+eval_analogy,dim=100|window=5,king-man+woman,top5,queen:0.712 prince:0.612 bishop:0.598 teresa:0.581 charles:0.572
+eval_analogy,dim=100|window=5,paris-france+italy,top5,venice:0.686 terre:0.654 florence:0.620 santa:0.619 bucharest:0.614
+eval_analogy,dim=100|window=5,capital-country,top1,0.196
+eval_analogy,dim=100|window=5,capital-country,top5,0.393
+eval_analogy,dim=100|window=5,gender,top1,0.694
+eval_analogy,dim=100|window=5,gender,top5,0.847
+eval_analogy,dim=100|window=5,comparative,top1,0.714
+eval_analogy,dim=100|window=5,comparative,top5,0.952
+eval_analogy,dim=100|window=5,all,top1,0.535
+eval_analogy,dim=100|window=5,all,top5,0.724
+eval_analogy,dim=50|window=5,all,top1,0.482
+eval_analogy,dim=100|window=2,all,top1,0.494
+eval_analogy,dim=100|window=5,all,top1,0.535
+eval_analogy,dim=100|window=10,all,top1,0.559
+eval_analogy,dim=300|window=5,all,top1,0.535
+application,query=medical treatment,therapy,cos_to_medical,0.586
+application,query=medical treatment,clinical,cos_to_medical,0.633
+application,query=medical treatment,patient,cos_to_medical,0.568
+application,query=medical treatment,treatment,cos_to_medical,0.56
+application,query=medical treatment|embedding,doc9420,query_words_in_doc,treatment
+application,query=medical treatment|embedding,doc3666,query_words_in_doc,treatment
+application,query=medical treatment|embedding,doc2180,query_words_in_doc,medical treatment
+application,query=medical treatment|embedding,doc709,query_words_in_doc,medical treatment
+application,query=medical treatment|embedding,doc280,query_words_in_doc,none
+application,query=medical treatment|tfidf,doc8370,query_words_in_doc,medical treatment
+application,query=medical treatment|tfidf,doc7526,query_words_in_doc,medical treatment
+application,query=medical treatment|tfidf,doc5134,query_words_in_doc,medical
+application,query=medical treatment|tfidf,doc190,query_words_in_doc,medical
+application,query=medical treatment|tfidf,doc9420,query_words_in_doc,treatment
+error_analysis,dim=100|window=5,doctor-nurse,cosine,0.602
+error_analysis,dim=100|window=5,doctor-nurse,rank_in_vocab,10
+error_analysis,dim=100|window=5,doctor-hospital,cosine,0.431
+error_analysis,dim=100|window=5,doctor-hospital,rank_in_vocab,111
+error_analysis,dim=100|window=5,doctor-disease,cosine,0.356
+error_analysis,dim=100|window=5,doctor-disease,rank_in_vocab,322
+error_analysis,dim=100|window=5,doctor-physician,cosine,0.776
+error_analysis,dim=100|window=5,doctor-physician,rank_in_vocab,2
+error_analysis,dim=100|window=5,doctor-dentist,cosine,0.823
+error_analysis,dim=100|window=5,doctor-dentist,rank_in_vocab,1
+error_analysis,dim=100|window=5,doctor-patient,cosine,0.602
+error_analysis,dim=100|window=5,doctor-patient,rank_in_vocab,11
+error_analysis,dim=100|window=5,doctor-child,cosine,0.59
+error_analysis,dim=100|window=5,doctor-child,rank_in_vocab,14
+error_analysis,dim=100|window=5,doctor-lawyer,cosine,0.587
+error_analysis,dim=100|window=5,doctor-lawyer,rank_in_vocab,15
+error_analysis,dim=100|window=5,doctor-banana,cosine,-0.15
+error_analysis,dim=100|window=5,doctor-banana,rank_in_vocab,45126
+error_analysis,dim=100|window=5,doctor-football,cosine,0.054
+error_analysis,dim=100|window=5,doctor-football,rank_in_vocab,14352
+polysemy,dim=100|window=5,bank-money,cosine,0.346
+polysemy,dim=100|window=5,bank-river,cosine,0.132
+polysemy,dim=100|window=5,bank-water,cosine,0.03
+polysemy,dim=100|window=5,bank-loan,cosine,0.493
+polysemy,dim=100|window=5,bank-shore,cosine,0.163
+polysemy,dim=100|window=5,bank,sentences_money_context,455
+polysemy,dim=100|window=5,bank,sentences_river_context,17
+polysemy,dim=100|window=5,bank,top10,banks currency cheque capital banking currencies credit securities taxpayer bitcoin
